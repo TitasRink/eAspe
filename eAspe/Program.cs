@@ -1,7 +1,14 @@
+
+using eAspeDatabase.DbConfigs;
+using eAspeDatabase.SqlDbContext;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<AspeContext>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<IDbConfiguration, DbConfiguration>();
 
 var app = builder.Build();
 
