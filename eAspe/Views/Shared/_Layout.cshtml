@@ -3,16 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - eAspe</title>
+    <title>@ViewData["Title"] - Aspe</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/eAspe.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">eAspe</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Aspe</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,6 +28,11 @@
                         </li>
                     </ul>
                 </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><i class="bi bi-envelope-at-fill"></i>info@aspe.lt</li>
+                    <li class="list-inline-item"><i class="bi bi-alarm-fill"></i>I-IV 8:00 - 16:00</li>
+                    <li class="list-inline-item"><i class="bi bi-telephone-fill"></i>+370 655 07044</li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -43,6 +49,7 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
