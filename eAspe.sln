@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAspe", "eAspe\eAspe.csproj", "{6BF9EF56-E168-4878-A13A-446F44F64E6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAspe", "eAspe\eAspe.csproj", "{6BF9EF56-E168-4878-A13A-446F44F64E6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAspeDatabase", "eAspeDatabase\eAspeDatabase.csproj", "{FC2FCE2D-CA4E-4E3B-A318-7F310CDC4068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAspeDatabase", "eAspeDatabase\eAspeDatabase.csproj", "{FC2FCE2D-CA4E-4E3B-A318-7F310CDC4068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAspeBusiness", "eAspeBusiness\eAspeBusiness.csproj", "{C4099030-EFC3-4D73-B435-72D66E39B505}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FC2FCE2D-CA4E-4E3B-A318-7F310CDC4068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC2FCE2D-CA4E-4E3B-A318-7F310CDC4068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC2FCE2D-CA4E-4E3B-A318-7F310CDC4068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4099030-EFC3-4D73-B435-72D66E39B505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4099030-EFC3-4D73-B435-72D66E39B505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4099030-EFC3-4D73-B435-72D66E39B505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4099030-EFC3-4D73-B435-72D66E39B505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
